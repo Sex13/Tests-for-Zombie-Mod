@@ -1,0 +1,45 @@
+[
+	{
+		"name": "Grassland",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": []
+    },
+	{
+		"name": "House",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"uniques": [
+			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+            "Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
+            "Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [1]",
+            "Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [1]",
+            "Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [1]",
+            "Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+			"Rough terrain",
+			"Indoor",
+			"Blocks line-of-sight from tiles at same elevation",
+			"A Region is formed with at least [90]% [House] tiles, with priority [8]",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations"
+		]
+	},
+	{
+		"name": "Convenience Store",
+		"type": "TerrainFeature",
+		"movementCost": 4,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["House"],
+		"uniques": [
+			"Rough terrain", "Vegetation", "A Region is formed with at least [30]% [Convenience Store] tiles, with priority [6]", "[-1] to Fertility for Map Generation"
+		]
+	}
+]

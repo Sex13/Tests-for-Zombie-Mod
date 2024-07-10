@@ -1,0 +1,14 @@
+[
+    {
+		"name": "Remove Convenience Store",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"turnsToBuild": 4,
+		"uniques": [
+			"Can be built outside your borders",
+			"Excluded from map editor",
+			"Triggers a [Loot] event"
+		],
+		"shortcutKey": "F"
+	}
+]

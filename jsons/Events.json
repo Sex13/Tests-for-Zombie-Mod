@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Loot",
+        "text": "You looted dis tile",
+        "choices": [
+            {
+                "text": "OK",
+                "triggeredUniques": [
+                    
+                ]
+            }
+        ]
+    }
+]
